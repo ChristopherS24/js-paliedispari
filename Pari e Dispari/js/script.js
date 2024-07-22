@@ -35,3 +35,14 @@ function numRandom () {
 
     return risultatocasuale;
 }
+
+//somma valori
+let somma = num + numRandom;
+    if (somma %2 == 0) {
+        console.log ('Il risultato è pari:', somma)
+        return true;
+}
+    else {
+        console.log ('il risultato è dispari:', somma)
+        return false;
+    }
